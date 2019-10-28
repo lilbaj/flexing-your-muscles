@@ -20,7 +20,8 @@ img {
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 1em 0;
+  flex-wrap: wrap;
+  padding: 1.5rem 0;
 
   background-color: #8bc9d9;
   border-top: 3px solid #005e76;
@@ -28,6 +29,37 @@ img {
   color: #005e76;
 }
 
+.footer h2 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
 .social > li {
   width: 3em;
+  margin: 0 .5em;
+}
+
+.copyright {
+  width: 100%;
+  padding: 0 1rem;
+}
+
+.footer ul {
+  padding-left: 0;
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+.footer a {
+  color: #003442;
+}
+
+.social {
+  display: flex;
+  padding: 0 1rem;
+}
+
+.links {
+  padding: 0 1rem;
 }
