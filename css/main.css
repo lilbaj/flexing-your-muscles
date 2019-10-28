@@ -21,6 +21,7 @@ img {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  align-items: center;
   padding: 1.5rem 0;
 
   background-color: #8bc9d9;
@@ -58,6 +59,7 @@ img {
 .social {
   display: flex;
   padding: 0 1rem;
+  margin-left: auto;
 }
 
 .links {
